@@ -35,7 +35,9 @@ require("require-environment-variables")([
     "TASK0_NUM_INSTANCES",
     "TASK0_CPUS",
     "TASK0_MEM",
-    "TASK0_IMAGE"
+    "TASK0_IMAGE",
+    "TASK0_CONFIG",
+    "TASK0_LICENSE"
 /*  Optional variables for tasks
     "TASK0_HEALTHCHECK",
     "TASK0_HEALTHCHECK_PORT",
