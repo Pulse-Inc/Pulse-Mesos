@@ -7,7 +7,6 @@ for
 "use strict";
 // Internal modules
 const fs = require("fs");
-
 // NPM modules
 var express = require("express");
 
