@@ -157,6 +157,7 @@ scheduler.once("subscribed", function (obj) {
     ejs.setup(app);
     app.get("/moduleList", baseApi.moduleList);
 });
+
 // Setting up the express server
 var server;
 server = app.listen(app.get("port"), app.get("host"), function () {
