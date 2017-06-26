@@ -27,7 +27,7 @@
     "express": "^4.14.0",
     "he": "^1.1.1",
     "lodash": "^4.14.0",
-    "mesos-framework": "^0.5.3",
+    "mesos-framework": "https://github.com/volak/mesos-framework#bridge",
     "node-zookeeper-client": "^0.2.2",
     "passport": "^0.3.2",
     "passport-gitlab2": "^2.2.0",
