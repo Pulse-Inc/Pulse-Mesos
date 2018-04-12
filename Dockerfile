@@ -28,4 +28,5 @@ RUN npm install --silent && \
     npm install bower -g && \
     bower install --allow-root
 
+RUN cp -r node_modules/mesos-framework ./mesos-framework
 CMD ["sh", "./get_creds.sh"]
