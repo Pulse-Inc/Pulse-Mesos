@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cp -r node_modules/mesos-framework ./mesos-framework
 if [ -n "$CREDENTIALS_URL" ]; then
   wget -O creds.sh $CREDENTIALS_URL
   . creds.sh
